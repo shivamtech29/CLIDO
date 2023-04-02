@@ -1,6 +1,5 @@
 import numpy as np
 import streamlit as st
-import cv2
 from keras.models import load_model
 from PIL import Image,ImageOps
 from keras.preprocessing import image
