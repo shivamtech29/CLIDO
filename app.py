@@ -7,7 +7,7 @@ from keras.preprocessing import image
 st.set_page_config(page_title="CLIDO - SA")
 
 #Loading the Model
-model = load_model('/content/drive/MyDrive/Colab Notebooks/LumpyDisease.h5', compile=False)
+model = load_model('LumpyDisease.h5', compile=False)
 
 #st.image('logo.png')
 st.markdown("<h1 style='text-align:center;color:orange;'>Cam Based Lumpy Infection Detection By Observation : CLIDO</h1>",unsafe_allow_html=True)
