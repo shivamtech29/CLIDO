@@ -4,3 +4,4 @@ opencv-python
 keras
 pillow
 tensorflow
+pip==23.0.1
